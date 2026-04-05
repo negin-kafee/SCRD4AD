@@ -3,7 +3,6 @@ from dataset import get_data_transforms
 from torchvision.datasets import ImageFolder
 import numpy as np
 from torch.utils.data import DataLoader
-from dataset import MVTecDataset
 from torch.nn import functional as F
 from sklearn.metrics import roc_auc_score, f1_score, recall_score, accuracy_score, precision_recall_curve
 import cv2

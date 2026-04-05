@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Logs and outputs
+logs/
+*.log
+*.err
+*.out
+
+# SLURM batch scripts (local only)
+sbatch/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (large files)
+*.pth
+*.pt
+checkpoints/
+
+# Data
+*.nii
+*.nii.gz
+*.h5
+data/
+datasets/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
